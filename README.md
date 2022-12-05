@@ -2,9 +2,14 @@
 بورطالات جديدة ​
 
 
-لتحديث لملف stalker.conf
-غيرت البورطالات المتوقفة بأخري شغالة
 
+أمر تثبيت multistalker 
+wget -q "--no-check-certificate" https://raw.githubusercontent.com/ziko-ZR1/Multi-Stalker-install/main/Downloads/installer.sh -O - | /bin/sh
+
+
+أمروحدف multistalker 
+
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/MultiStalker
 
 
 امر ارسال البورطالات الى home/stalker.conf
