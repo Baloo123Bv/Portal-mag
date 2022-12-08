@@ -1,4 +1,3 @@
-rm -rf /home/stalker.conf
 echo "############ waiting... #################"
 #!/bin/sh
 #
