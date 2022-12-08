@@ -1,3 +1,4 @@
+rm -rf /home/stalker.conf
 #!/bin/sh
 #
 
