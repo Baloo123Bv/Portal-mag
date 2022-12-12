@@ -2,6 +2,7 @@ echo "############### stalker.conf #################"
 echo "############ BY WOLRD OF ENIGMA2 #################"
 #!/bin/sh
 #
+wget -O /usr/lib/enigma2/python/Plugins/Extensions/MultiStalker/commons/commons.py "https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/commons.py" 
 
 wget -O /home/stalker.conf "https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf"
 
