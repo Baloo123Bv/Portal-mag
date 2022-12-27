@@ -1,9 +1,9 @@
-### تحديث جديد stalker.conf
+# تحديث جديد stalker.conf
 ## بورطالات جديدة ​
 
 
 
-أمر تثبيتmultistalker 
+#### أمر تثبيتmultistalker 
 
 
 ```
@@ -13,7 +13,7 @@ wget -q "--no-check-certificate" https://raw.githubusercontent.com/ziko-ZR1/Mult
 
 
 
-أمروحدف multistalker 
+#### أمروحدف multistalker 
 
 
 
@@ -21,7 +21,7 @@ wget -q "--no-check-certificate" https://raw.githubusercontent.com/ziko-ZR1/Mult
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/MultiStalker
 ```
 
-امر ارسال البورطالات الى home/stalker.conf
+#### امر ارسال البورطالات الى home/stalker.conf
 
 
 
@@ -31,7 +31,7 @@ wget -O /home/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-
 
 
 
-امر الرفع من عدد البورطالات (150) كحد أقصي
+#### امر الرفع من عدد البورطالات (150) كحد أقصي
 
 
 
