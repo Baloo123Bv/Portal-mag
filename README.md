@@ -1,14 +1,14 @@
-تحديث جديد stalker.conf
-بورطالات جديدة ​
+### تحديث جديد stalker.conf
+##بورطالات جديدة ​
 
 
 
 أمر تثبيتmultistalker 
 
 
-
+```
 wget -q "--no-check-certificate" https://raw.githubusercontent.com/ziko-ZR1/Multi-Stalker-install/main/Downloads/installer.sh -O - | /bin/sh
-
+```
 
 
 
@@ -17,17 +17,17 @@ wget -q "--no-check-certificate" https://raw.githubusercontent.com/ziko-ZR1/Mult
 
 
 
-
+```
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/MultiStalker
-
+```
 
 امر ارسال البورطالات الى home/stalker.conf
 
 
 
-
+```
 wget -O /home/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf && init 4; sleep 4; init 3
-
+```
 
 
 
@@ -36,9 +36,9 @@ wget -O /home/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-
 
 
 
-
+```
 wget -O /usr/lib/enigma2/python/Plugins/Extensions/MultiStalker/commons/commons.py https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/commons.py && killall -9 enigma2
-
+```
 
 
 
@@ -50,9 +50,9 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/MultiStalker/commons/commons.
 
 
 
-
+```
 init 4; sleep 5; sed -e s/config.plugins.MultiStalker.portals.*//g -i /etc/enigma2/settings; init 3
-
+```
 
 
 
