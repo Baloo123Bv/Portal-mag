@@ -44,7 +44,7 @@ wget -O /usr/lib/enigma2/python/Plugins/Extensions/MultiStalker/commons/commons.
 
 
 
-أمر تهيئة multistalker من البورطالات
+### أمر تهيئة  البلوجين من البورطالات
 
 
 
